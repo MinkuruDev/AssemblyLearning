@@ -24,8 +24,14 @@
         INT 21h
 
         ; to upper, store in char
+        CMP AL,'a'
+            JB _END_IF
+        CMP AL,'z'
+            JA _END_IF
         SUB AL,20h
-        MOV char,AL
+
+        _END_IF:
+            MOV char,AL
 
         ; output msg2
         LEA DX,msg2
