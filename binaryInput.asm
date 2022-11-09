@@ -9,6 +9,17 @@
     msg2    DB      ENTER,"So nhi phan da nhap: $"
     char    DB      ?
 
+; ĐỀ BÀI
+;
+; >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+;
+; Viết chương trình nhập và in ra màn hình số nhị phân. Nếu nhập sai 
+; thì yêu cầu nhập lại
+;
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+;
+;                                                               ĐỀ BÀI
+
 .code
     main PROC
         ; init 

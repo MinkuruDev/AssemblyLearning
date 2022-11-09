@@ -8,6 +8,17 @@
     msg2    DB      ENTER,"Ky tu in hoa: $"
     char    DB      ?
 
+; ĐỀ BÀI
+;
+; >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+;
+; Viết chương trình nhập vào 1 ký tự, nếu ký tự đó là ký tự thường thì
+; in ra màn hình ký tự in hoa của ký tự đó
+;
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+;
+;                                                               ĐỀ BÀI
+
 .code
     main PROC
         ; init 

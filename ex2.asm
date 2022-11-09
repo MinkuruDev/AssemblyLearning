@@ -10,6 +10,19 @@
     msg3    DB      ENTER,"Good Evening$"
     char    DB      ?
 
+; ĐỀ BÀI
+;
+; >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+;
+; Nhập vào 1 ký tự, 
+; nếu đó là ký tự 's' hoặc 'S' thì in ra màn hình "Good Morning"
+; nếu đó là ký tự 'c' hoặc 'C' thì in ra màn hình "Good Afternoon"
+; nếu đó là ký tự 'e' hoặc 'E' thì in ra màn hình "Good Evening"
+;
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+;
+;                                                               ĐỀ BÀI
+
 .code
     main PROC
         ; init 

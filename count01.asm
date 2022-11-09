@@ -9,6 +9,18 @@
     msg2    DB      ENTER,"So luong so 0: $"
     msg3    DB      ENTER,"So luong so 1: $"
 
+; ĐỀ BÀI
+;
+; >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+;
+; Viết chương trình nhập vào số nhị phân. Đếm số lượng bit 1 và bit 0 
+; trong số vừa nhập và in kết quả ra màn hình. Nếu nhập sai yêu cầu 
+; nhập lại.
+;
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+;
+;                                                               ĐỀ BÀI
+
 .code
     main PROC
         ; init 

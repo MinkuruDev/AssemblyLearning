@@ -8,6 +8,17 @@
     msg2    DB      ENTER,"Ky tu nhap vao khong hop le, nhap lai: $"
     char    DB      ?
 
+; ĐỀ BÀI
+;
+; >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+;
+; nhập vào 1 ký tự, nếu ký tự đó là chữ thường thì in từ ký tự đó đến
+; ký tự 'z' ra màn hình. nếu không phải yêu cầu nhập lại
+;
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+;
+;                                                               ĐỀ BÀI
+
 .code
     main PROC
         ; init 

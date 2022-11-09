@@ -12,6 +12,18 @@
     first   DB      5Bh ; char after 'Z'
     last    DB      40h ; char before 'A'
 
+; ĐỀ BÀI
+;
+; >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+;
+; nhập vào 1 dòng văn bản, in ra ký tự in hoa lớn nhất và nhỏ nhất của
+; dòng văn bản vừa nhập. nếu không có ký tự in hoa thì thông báo không
+; có ký tự in hoa
+;
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+;
+;                                                               ĐỀ BÀI
+
 .code
     main PROC
         ; init 

@@ -9,6 +9,17 @@
     msg2    DB      ENTER,"So da nhap: $"
     arr     DB      100h DUP (?)
 
+; ĐỀ BÀI
+;
+; >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+;
+; Viết chương trình nhập và in ra màn hình số thập lục phân. Nếu sai 
+; yêu cầu nhập lại.
+;
+; <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+;
+;                                                               ĐỀ BÀI
+
 .code
     main PROC
         ; init 
